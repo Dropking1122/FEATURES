@@ -110,5 +110,3 @@ Setelah terkonfirmasi → key/produk digital dikirim otomatis
 
 ---
 
-> 📱 **Siap deploy ke VPS sendiri** — tidak ada biaya langganan bulanan untuk bot-nya.
-> Payment gateway (Pak Kasir) menggunakan akun milik Anda sendiri.
