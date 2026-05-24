@@ -1,37 +1,73 @@
 # 3️⃣ ABSENSIQR-REVD
 
-**📱 Aplikasi Absensi dengan QR Code**
+**📱 Aplikasi Absensi Siswa dengan QR Code**
 
-Sistem absensi modern menggunakan QR code untuk tracking kehadiran karyawan secara real-time.
+Sistem absensi modern berbasis QR Code untuk sekolah — memudahkan pencatatan kehadiran siswa secara real-time, akurat, dan bebas kertas.
 
 ---
 
 ## 📋 Daftar File
 
-- **[FEATURES.md](./FEATURES.md)** - Dokumentasi fitur yang tersedia
+- **[FEATURES.md](./FEATURES.md)** - Dokumentasi lengkap semua fitur aplikasi
 - **[images/](./images/)** - Screenshot dan aset visual aplikasi
 - **[docs/](./docs/)** - Dokumentasi teknis tambahan
 
 ---
 
-## 🎯 Fitur Unggulan
+## 🎯 Tentang Aplikasi
 
-🔄 *Dokumentasi sedang dalam proses penyiapan*
+AbsensiQR-REVD adalah aplikasi absensi berbasis QR Code yang dirancang khusus untuk kebutuhan **sekolah**. Guru dan admin dapat memantau kehadiran **siswa** secara real-time langsung dari dashboard. Setiap siswa memiliki QR Code unik yang di-scan saat masuk kelas — tanpa perlu absen manual.
 
-Dokumentasi lengkap akan segera tersedia untuk project ini, termasuk:
-
-- ✏️ Daftar fitur lengkap
-- 📸 Screenshot aplikasi
-- 🔧 Panduan teknis
+> ⚠️ Aplikasi ini digunakan untuk absensi **siswa sekolah**, bukan karyawan/pegawai.
 
 ---
 
-## 📖 Baca Dokumentasi
+## 🎯 Fitur Utama
 
-Untuk informasi lebih lanjut, silakan cek:
-- 👉 **[FEATURES.md](./FEATURES.md)** - Fitur-fitur aplikasi
-- 📁 **[images/](./images/)** - Screenshots
-- 📚 **[docs/](./docs/)** - Dokumentasi teknis
+✅ **QR Code Unik per Siswa**
+- Setiap siswa mendapat QR Code unik
+- QR Code bisa dicetak atau ditampilkan di HP
+- Scan cepat menggunakan kamera perangkat
+
+✅ **Pencatatan Kehadiran Real-time**
+- Data langsung tercatat saat scan
+- Guru & admin pantau kehadiran dari dashboard
+- Status: Hadir, Izin, Sakit, Alpha
+
+✅ **Manajemen Data Siswa**
+- Tambah, edit, dan hapus data siswa
+- Kelompokkan berdasarkan kelas dan angkatan
+- Import data siswa via Excel
+
+✅ **Laporan Kehadiran**
+- Rekap harian, mingguan, dan bulanan
+- Export ke Excel dan PDF
+- Statistik per siswa dan per kelas
+
+✅ **Dashboard Guru & Admin**
+- Ringkasan kehadiran hari ini
+- Daftar siswa yang belum absen
+- Grafik kehadiran per kelas
+
+✅ **Manajemen Kelas & Jadwal**
+- Atur data kelas dan mata pelajaran
+- Absensi bisa dilakukan per sesi / per mata pelajaran
+
+---
+
+## 🛠️ Teknologi
+
+- **Backend:** Laravel / PHP
+- **Frontend:** Blade + Tailwind CSS
+- **Database:** MySQL
+- **QR Code:** Library QR Generator
+- **Scanner:** Browser Camera API
+
+---
+
+## 📖 Baca Lengkapnya
+
+👉 **[Lihat semua fitur detail →](./FEATURES.md)**
 
 ---
 
@@ -39,8 +75,3 @@ Untuk informasi lebih lanjut, silakan cek:
 
 - 📦 [Source Code](https://github.com/Dropking1122/ABSENSIQR-REVD)
 - 👤 [Developer](https://github.com/Dropking1122)
-
----
-
-**Status:** Dokumentasi sedang dipersiapkan. Silakan kembali lagi atau hubungi developer untuk informasi lebih detail.
-

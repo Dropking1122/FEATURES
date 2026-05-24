@@ -1,46 +1,73 @@
 # 4️⃣ PROJECT-WEB-CLC
 
-**🌐 Website Project CLC**
+**🌐 Website Computer Learning Center (CLC)**
 
-Platform web untuk mengelola project dan kolaborasi tim secara efisien.
+Website resmi untuk lembaga kursus komputer CLC — platform informasi, pendaftaran siswa, dan manajemen kelas secara online.
 
 ---
 
 ## 📋 Daftar File
 
-- **[FEATURES.md](./FEATURES.md)** - Dokumentasi fitur yang tersedia
-- **[images/](./images/)** - Screenshot dan aset visual aplikasi
+- **[FEATURES.md](./FEATURES.md)** - Dokumentasi lengkap semua fitur website
+- **[images/](./images/)** - Screenshot dan aset visual
 - **[docs/](./docs/)** - Dokumentasi teknis tambahan
 
 ---
 
-## 🎯 Fitur Unggulan
+## 🎯 Tentang Project
 
-🔄 *Dokumentasi sedang dalam proses penyiapan*
+Website CLC (Computer Learning Center) adalah platform web resmi untuk lembaga kursus komputer. Website ini menampilkan informasi program kursus, jadwal, dan memungkinkan calon siswa untuk mendaftar secara online. Admin dapat mengelola konten, data pendaftar, dan informasi kelas langsung dari dashboard.
 
-Dokumentasi lengkap akan segera tersedia untuk project ini, termasuk:
-
-- ✏️ Daftar fitur lengkap
-- 📸 Screenshot aplikasi
-- 🔧 Panduan teknis
+🔗 **Live Website:** [clccourse.online](https://clccourse.online)
 
 ---
 
-## 📖 Baca Dokumentasi
+## 🎯 Fitur Utama
 
-Untuk informasi lebih lanjut, silakan cek:
-- 👉 **[FEATURES.md](./FEATURES.md)** - Fitur-fitur aplikasi
-- 📁 **[images/](./images/)** - Screenshots
-- 📚 **[docs/](./docs/)** - Dokumentasi teknis
+✅ **Landing Page Modern**
+- Tampilan profesional dan responsif
+- Informasi program kursus yang tersedia
+- Testimoni alumni dan keunggulan lembaga
+
+✅ **Pendaftaran Online**
+- Form pendaftaran calon siswa online
+- Pilih program dan jadwal kursus
+- Konfirmasi otomatis via WhatsApp/email
+
+✅ **Informasi Program Kursus**
+- Daftar program yang tersedia (Microsoft Office, Desain Grafis, dll)
+- Detail kurikulum, durasi, dan biaya
+- Jadwal kelas yang tersedia
+
+✅ **Dashboard Admin**
+- Kelola data pendaftar
+- Manajemen konten website
+- Laporan pendaftaran
+
+✅ **Galeri & Testimoni**
+- Galeri kegiatan belajar
+- Testimoni alumni
+- Sertifikat dan pencapaian
 
 ---
 
-## 🔗 Link Repository
+## 🛠️ Teknologi
 
+- **Backend:** PHP / Laravel
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** MySQL
+- **Hosting:** VPS / Shared Hosting
+
+---
+
+## 📖 Baca Lengkapnya
+
+👉 **[Lihat semua fitur detail →](./FEATURES.md)**
+
+---
+
+## 🔗 Link
+
+- 🌐 [Website Live](https://clccourse.online)
 - 📦 [Source Code](https://github.com/Dropking1122/PROJECT-WEB-CLC)
 - 👤 [Developer](https://github.com/Dropking1122)
-
----
-
-**Status:** Dokumentasi sedang dipersiapkan. Silakan kembali lagi atau hubungi developer untuk informasi lebih detail.
-

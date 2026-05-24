@@ -88,9 +88,18 @@ class MarkdownHandler(http.server.SimpleHTTPRequestHandler):
         parsed = urllib.parse.urlparse(self.path)
         path = urllib.parse.unquote(parsed.path)
 
-        # Serve root as README.md
+        # Serve root as index.html
         if path == "/" or path == "":
-            path = "/README.md"
+            fs_path = Path("./index.html")
+            try:
+                content = fs_path.read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.end_headers()
+                self.wfile.write(content)
+            except Exception as e:
+                self.send_error(500, str(e))
+            return
 
         # Build filesystem path
         fs_path = Path(".") / path.lstrip("/")
