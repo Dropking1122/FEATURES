@@ -69,5 +69,4 @@ Website CLC (Computer Learning Center) adalah platform web resmi untuk lembaga k
 ## 🔗 Link
 
 - 🌐 [Website Live](https://clccourse.online)
-- 📦 [Source Code](https://github.com/Dropking1122/PROJECT-WEB-CLC)
-- 👤 [Developer](https://github.com/Dropking1122)
+- 📖 [Baca Dokumentasi Fitur →](./FEATURES.md)

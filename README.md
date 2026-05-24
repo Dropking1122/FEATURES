@@ -125,22 +125,13 @@ Setiap project memiliki folder `images/` untuk menyimpan screenshot dan aset vis
 
 ---
 
-## 🌐 Link Repository Asli
-
-- 🔗 [POS-SUPPLIER-REVD](https://github.com/Dropking1122/POS-SUPPLIER-REVD)
-- 🔗 [REVDWABOT](https://github.com/Dropking1122/REVDWABOT)
-- 🔗 [ABSENSIQR-REVD](https://github.com/Dropking1122/ABSENSIQR-REVD)
-- 🔗 [PROJECT-WEB-CLC](https://github.com/Dropking1122/PROJECT-WEB-CLC)
-
----
-
 ## 📞 Kontak & Support
 
 Untuk informasi lebih lanjut tentang project atau fitur spesifik, silakan hubungi:
-- 📧 Email: [hubungi via GitHub](https://github.com/Dropking1122)
-- 🔗 GitHub: [@Dropking1122](https://github.com/Dropking1122)
+- 📱 WhatsApp: [REVDSTORE](https://wa.me/revdstore/)
+- 📸 Instagram: [@revd.cloud](https://instagram.com/revd.cloud)
+- ✈️ Telegram: [@ValltzID](https://t.me/ValltzID)
 
 ---
 
-**Last Updated:** May 2026  
-**Repository:** [FEATURES](https://github.com/Dropking1122/FEATURES)
+**Last Updated:** May 2026

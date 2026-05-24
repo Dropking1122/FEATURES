@@ -75,8 +75,7 @@ Folder `images/` berisi screenshot lengkap aplikasi. Anda bisa membuka gambar de
 
 ---
 
-## 🔗 Link Repository
+## 🔗 Link
 
-- 📦 [Source Code](https://github.com/Dropking1122/POS-SUPPLIER-REVD)
-- 👤 [Developer](https://github.com/Dropking1122)
+- 📖 [Baca Dokumentasi Fitur →](./FEATURES.md)
 

@@ -120,10 +120,9 @@ Folder `images/` berisi screenshot lengkap aplikasi. Lihat:
 
 ---
 
-## 🔗 Link Repository
+## 🔗 Link
 
-- 📦 [Source Code](https://github.com/Dropking1122/REVDWABOT)
-- 👤 [Developer](https://github.com/Dropking1122)
+- 📖 [Baca Dokumentasi Fitur →](./FEATURES.md)
 
 ---
 

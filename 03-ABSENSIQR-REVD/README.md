@@ -71,7 +71,6 @@ AbsensiQR-REVD adalah aplikasi absensi berbasis QR Code yang dirancang khusus un
 
 ---
 
-## 🔗 Link Repository
+## 🔗 Link
 
-- 📦 [Source Code](https://github.com/Dropking1122/ABSENSIQR-REVD)
-- 👤 [Developer](https://github.com/Dropking1122)
+- 📖 [Baca Dokumentasi Fitur →](./FEATURES.md)
