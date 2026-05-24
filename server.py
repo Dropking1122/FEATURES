@@ -66,6 +66,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <a href="/03-ABSENSIQR-REVD/FEATURES.md">&nbsp;&nbsp;↳ Features</a>
     <a href="/04-PROJECT-WEB-CLC/README.md">4️⃣ Project Web CLC</a>
     <a href="/04-PROJECT-WEB-CLC/FEATURES.md">&nbsp;&nbsp;↳ Features</a>
+    <a href="/05-TELEBOT-ORDER/README.md">5️⃣ Telegram Bot Order</a>
+    <a href="/05-TELEBOT-ORDER/FEATURES.md">&nbsp;&nbsp;↳ Features</a>
   </div>
 </div>
 <div class="main">
