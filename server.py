@@ -141,7 +141,7 @@ class MarkdownHandler(http.server.SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer((HOST, PORT), MarkdownHandler) as httpd:
-        httpd.allow_reuse_address = True
         print(f"Serving REVD Documentation at http://{HOST}:{PORT}")
         httpd.serve_forever()
