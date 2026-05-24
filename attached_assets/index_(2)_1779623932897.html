@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVD STORE - Digital Products & Services</title>
+    <meta name="description" content="Premium digital products and services by REVD STORE. Capcut Pro, Canva Pro, VPN, and more!">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/style.css?v=5.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <span class="loader-letter" style="--delay: 0">R</span>
+                <span class="loader-letter" style="--delay: 1">E</span>
+                <span class="loader-letter" style="--delay: 2">V</span>
+                <span class="loader-letter" style="--delay: 3">D</span>
+            </div>
+            <div class="loader-subtitle">Digital Services</div>
+            <div class="loader-dots">
+                <span class="loader-dot"></span>
+                <span class="loader-dot"></span>
+                <span class="loader-dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-particles" id="particles"></div>
+    
+    <!-- 3D Scene Container -->
+    <div class="scene-3d" id="scene3d"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text" id="logoText">REVDSTORE</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="section hero-section" id="home">
+            <div class="section-container">
+                
+                <!-- Profile Area -->
+                <div class="profile-area">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-ring"></div>
+                        <div class="profile-image">
+                            <img id="profileImg" src="assets/img/profile.jpeg" alt="Profile Photo" onerror="this.src='https://api.dicebear.com/7.x/avataaars/svg?seed=Felix'">
+                        </div>
+                        <div class="status-badge">
+                            <span class="status-dot"></span>
+                            <span id="statusText">Available</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-info">
+                        <h1 class="profile-name">
+                            <span class="greeting" id="greetingText">Hi, I'm</span>
+                            <span class="name-wrapper">
+                                <span id="nameText">Revaldi</span>
+                                <i class="fas fa-circle-check verified-badge"></i>
+                            </span>
+                        </h1>
+                        <div class="profile-title">
+                            <span class="typing-text" id="typingText"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="profile-bio" id="bioText">
+                            Digital entrepreneur & tech enthusiast. Providing premium digital products and innovative web solutions. Let's connect! 🚀
+                        </p>
+
+                        <!-- Social Links -->
+                        <div class="social-section">
+                            <span class="social-label">Connect with me</span>
+                            <div class="social-links" id="socialLinks">
+                                <!-- Social links will be loaded from JSON -->
+                            </div>
+                        </div>
+                        
+                        <div class="profile-stats" id="statsContainer">
+                            <!-- Stats will be loaded from JSON -->
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="action-buttons" id="actionButtons">
+                        <!-- Buttons will be loaded from JSON -->
+                    </div>
+
+                    <!-- Testimonial Button -->
+                    <div class="testimonial-section">
+                        <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDU1MzQxNzM3MTcwMzAy?story_media_id=3710789107510843237_68244878136&igsh=MTg4YndhZzAyZjF0bg==" target="_blank" class="btn btn-testimonial">
+                            <i class="fas fa-star"></i>
+                            <span>Lihat Testimoni</span>
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <div class="section-wave"></div>
+        <section class="section projects-section" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fas fa-rocket"></i> My Projects</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Explore my latest works and open-source contributions</p>
+                </div>
+                <div class="projects-grid" id="projectsGrid">
+                    <a href="https://revdstore.web.id" target="_blank" class="project-card featured">
+                        <div class="project-icon free">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Free Product Digital</h3>
+                            <p class="project-desc">Get free digital products and resources</p>
+                            <span class="project-link">Visit <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                        <span class="project-badge">FREE</span>
+                    </a>
+                    <a href="https://tmail.revdstore.web.id" target="_blank" class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">TempMail</h3>
+                            <p class="project-desc">Temporary email service for privacy protection</p>
+                            <span class="project-link">Visit <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                    <a href="https://clccourse.online" target="_blank" class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Website CLC</h3>
+                            <p class="project-desc">Cmputer Learning Center</p>
+                            <span class="project-link">Visit <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Dropking1122/telebotaku" target="_blank" class="project-card">
+                        <div class="project-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Telegram Bot</h3>
+                            <p class="project-desc">Custom Telegram bot with various features</p>
+                            <span class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <div class="section-wave"></div>
+        <section class="section products-section" id="products">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fas fa-gem"></i> Premium Apps</span>
+                    <h2 class="section-title">Digital Products</h2>
+                    <p class="section-subtitle">High-quality digital products at affordable prices</p>
+                </div>
+                <div class="products-grid" id="productsGrid">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <img src="assets/img/capcut.png?v=2" alt="Capcut Pro">
+                        </div>
+                        <h3 class="product-name">Capcut Pro Private</h3>
+                        <p class="product-desc">Premium video editing features</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <img src="assets/img/canva.png?v=2" alt="Canva Pro">
+                        </div>
+                        <h3 class="product-name">Canva Pro</h3>
+                        <p class="product-desc">Design like a professional</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <img src="assets/img/viu.png?v=2" alt="VIU">
+                        </div>
+                        <h3 class="product-name">VIU Private</h3>
+                        <p class="product-desc">Premium streaming entertainment</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <img src="assets/img/alightmotion.png?v=2" alt="Alight Motion">
+                        </div>
+                        <h3 class="product-name">Alight Motion Private</h3>
+                        <p class="product-desc">Motion graphics editor</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <img src="assets/img/vpn.jpg?v=2" alt="VPN">
+                        </div>
+                        <h3 class="product-name">VPN Tunneling</h3>
+                        <p class="product-desc">Secure and fast connection</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <img src="assets/img/vidio.png?v=2" alt="Vidio">
+                        </div>
+                        <h3 class="product-name">Vidio Private</h3>
+                        <p class="product-desc">Premium streaming access</p>
+                    </div>
+                </div>
+                <div class="products-cta">
+                    <a href="https://wa.me/revdstore/" target="_blank" class="btn btn-primary btn-lg">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Order Now</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <div class="section-wave"></div>
+        <section class="section contact-section" id="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fas fa-paper-plane"></i> Get in Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <p class="section-subtitle">Have questions? Let's connect!</p>
+                </div>
+                <div class="contact-grid">
+                    <a href="https://instagram.com/revd.cloud" target="_blank" class="contact-card instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span class="contact-label">Instagram</span>
+                        <span class="contact-handle">@revd.cloud</span>
+                    </a>
+                    <a href="https://wa.me/revdstore/" target="_blank" class="contact-card whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-handle">REVDSTORE</span>
+                    </a>
+                    <a href="https://t.me/ValltzID" target="_blank" class="contact-card telegram">
+                        <i class="fab fa-telegram"></i>
+                        <span class="contact-label">Telegram</span>
+                        <span class="contact-handle">@ValltzID</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p id="footerText">Made with <span class="heart">❤️</span> by <strong>Revaldi</strong></p>
+        <p class="copyright" id="copyrightText">© 2026 REVD STORE. All rights reserved.</p>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="#home" class="bottom-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#projects" class="bottom-nav-item">
+            <i class="fas fa-rocket"></i>
+            <span>Projects</span>
+        </a>
+        <a href="#products" class="bottom-nav-item">
+            <i class="fas fa-shopping-bag"></i>
+            <span>Products</span>
+        </a>
+        <a href="#contact" class="bottom-nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <script>
+        // Inline profile data as fallback
+        window.profileDataFallback = {
+            "personal": {
+                "name": "REVALDI",
+                "initials": "REVDSTORE",
+                "greeting": "Hi, I'm",
+                "bio": "Digital entrepreneur & tech enthusiast. Providing premium digital products and innovative web solutions. Let's connect!",
+                "profileImage": "assets/img/profile.jpeg",
+                "status": "Available",
+                "email": "me@revdstore.web.id"
+            },
+            "titles": [
+                "Digital Seller",
+                "Networking",
+                "Tech Enthusiast",
+                "Problem Solver",
+                "Creative Mind"
+            ],
+            "stats": [
+                { "count": 10, "label": "Projects" },
+                { "count": 3, "label": "Years Exp" },
+                { "count": 200, "label": "Clients" }
+            ],
+            "socialLinks": [
+                { "name": "Instagram", "url": "https://instagram.com/revd.cloud", "icon": "fab fa-instagram", "class": "instagram" },
+                { "name": "WhatsApp", "url": "https://wa.me/revdstore/", "icon": "fab fa-whatsapp", "class": "whatsapp" },
+                { "name": "Telegram", "url": "https://t.me/ValltzID", "icon": "fab fa-telegram", "class": "telegram" },
+                { "name": "GitHub", "url": "https://github.com/Dropking1122", "icon": "fab fa-github", "class": "github" },
+                { "name": "Email", "url": "mailto:me@revdserver.web.id", "icon": "fas fa-envelope", "class": "email" }
+            ],
+            "quickLinks": [
+                { "title": "TempMail", "description": "Temporary Email Service", "url": "https://tmail.revdstore.web.id", "icon": "fas fa-envelope-open-text" },
+                { "title": "Website CLC", "description": "Computer Learning Center", "url": "https://clccourse.online", "icon": "fas fa-globe" },
+                { "title": "Telegram Bot", "description": "My Bot Project", "url": "https://github.com/Dropking1122/telebotaku", "icon": "fab fa-telegram" }
+            ],
+            "buttons": {
+                "primary": { "text": "View Products", "icon": "fas fa-shopping-bag", "link": "#products" },
+                "secondary": { "text": "Contact Me", "icon": "fab fa-whatsapp", "link": "https://wa.me/revdstore/" }
+            },
+            "footer": {
+                "text": "Made with ❤️ by",
+                "copyright": "© 2026 REVD STORE. All rights reserved."
+            }
+        };
+    </script>
+    <script src="assets/js/main.js?v=5.0"></script>
+    <script src="assets/js/anime-3d.js?v=3.0"></script>
+</body>
+</html>
